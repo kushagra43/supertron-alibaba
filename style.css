@@ -219,8 +219,7 @@ body {
 }
 
 .why-box {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 10px 30px 10px;
     border: 1px solid #EDEDED;
 }
 
