@@ -194,10 +194,17 @@ body {
     max-width: 560px;
 }
 
+.WhyGridCont {
+    overflow-x: auto;
+    width: 100%;
+}
+
 .WhyGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
+    min-width: 1000px;
+    overflow-x: auto;
 }
 
 .firstBox {
@@ -804,6 +811,10 @@ body {
         align-items: center;
         justify-content: center;
     }
+
+    .sliderText {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -856,5 +867,16 @@ body {
         min-height: 240px;
         min-width: 200px;
         padding: 20px;
+    }
+
+    .slideHeadingContainer {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+
+    .sliderText {
+        font-size: 16x;
+        line-height: 20px;
     }
 }
