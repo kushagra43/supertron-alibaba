@@ -227,6 +227,8 @@ body {
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
+    align-items: center;
+    gap: 10px;
 }
 
 
