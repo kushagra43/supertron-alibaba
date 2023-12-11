@@ -122,3 +122,35 @@ const moveSliderToRight2 = () => {
     });
   }
 };
+
+function toggleDropdown() {
+  var dropdownContent = document.getElementById("customDropdown").querySelector(".dropdown-content");
+  dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+}
+
+function showParagraph(selectedValue) {
+  // Hide all content divs
+  var contentDivs = document.getElementsByClassName("content");
+  for (var i = 0; i < contentDivs.length; i++) {
+    contentDivs[i].style.display = "none";
+  }
+
+  // Show the selected content div
+  var selectedContent = document.getElementsByClassName("content" + selectedValue);
+  for (var i = 0; i < selectedContent.length; i++) {
+    selectedContent[i].style.display = "flex";
+  }
+
+  // Hide the dropdown after selection
+  document.getElementById("customDropdown").querySelector(".dropdown-content").style.display = "none";
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  var dropdown = document.getElementById("customDropdown");
+  if (event.target !== dropdown && !dropdown.contains(event.target)) {
+    dropdown.querySelector(".dropdown-content").style.display = "none";
+  }
+}
+
+showParagraph(1)
