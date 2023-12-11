@@ -551,8 +551,6 @@ body {
 .custom-dropdown {
     position: relative;
     display: inline-block;
-    height: 160px;
-    overflow: hidden;
 }
 
 .dropdown-toggle {
@@ -560,14 +558,14 @@ body {
 }
 
 .dropdown-content {
+    width: 100%;
     display: block;
     position: absolute;
-    overflow: auto;
     top: 0;
     left: 0;
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 10;
+    z-index: 9999;
 }
 
 .WhyGridCont1 {
@@ -641,7 +639,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
         min-width: 100%;
-        overflow-x: hidden;
+        overflow: visible;
     }
 
 
