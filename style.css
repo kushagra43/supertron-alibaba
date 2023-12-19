@@ -232,6 +232,7 @@ body {
 }
 
 
+
 /* Why Zoho division */
 .whygrid {
     display: grid;
@@ -557,6 +558,13 @@ body {
 
 .dropdown-toggle {
     cursor: pointer;
+
+}
+
+.dropdownbutton {
+    border: solid 1px #888;
+    border-radius: 8px;
+    box-shadow: #888;
 }
 
 .dropdown-content {
@@ -601,6 +609,10 @@ body {
     z-index: 0;
 }
 
+.why-box p {
+    font-size: 12px;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 991px) {
@@ -638,10 +650,23 @@ body {
     }
 
     .WhyGrid {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
         width: 100%;
         min-width: 100%;
         overflow: visible;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .WhyGrid div {
+        flex: 1;
+    }
+
+    .WhyGrid div p {
+        font-size: 13px;
     }
 
 
