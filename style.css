@@ -81,7 +81,8 @@ body {
 
 .key-benefits-heading-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items:center;
 }
 
 .key-benefits-button {
