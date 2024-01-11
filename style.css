@@ -49,7 +49,7 @@ body {
 
 
 .form-container {
-    background-image: url('Form\bgo.png');
+    background-image: url('bgo.png');
     flex: 1;
     display: flex;
     justify-content: center;
