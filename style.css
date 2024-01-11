@@ -430,7 +430,7 @@ body {
 }
 
 .bluebutton {
-    background: #0069EC;
+    background: linear-gradient(90deg, #E73239 0.01%, #013D84 101.72%);
     padding: 20px 40px;
     border: none;
     border-radius: 8px;
