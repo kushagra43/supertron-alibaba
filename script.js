@@ -60,7 +60,7 @@ const moveSliderToLeft = () => {
 
   if (screenWidth < 500) {
     scrollableElement.scrollBy({
-      left: 400,
+      left: 700,
       behavior: "smooth",
     });
   } else {
