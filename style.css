@@ -127,7 +127,7 @@ body {
 }
 
 .details-container {
-    background-color: #0069EC;
+    background-color: #ed6b1f;
     flex: 1;
 }
 
@@ -321,7 +321,7 @@ body {
     font-size: 28px;
     font-weight: 700;
     white-space: nowrap;
-    color: #0069EC;
+    color: #ed6b1f;
 }
 
 .sliderText {
@@ -442,14 +442,14 @@ body {
 .blueheadingbig {
     font-size: 50px;
     font-weight: 600;
-    color: #0069EC;
+    color: #000000;
     line-height: 58px;
 }
 
 .blueheadingbigger {
     font-size: 80px;
     font-weight: 600;
-    color: #0069EC;
+    color: #000000;
     line-height: 58px;
 }
 
@@ -547,8 +547,8 @@ body {
 }
 
 .pointer {
-    min-width: 40px;
-    min-height: 40px;
+    max-width: 35px;
+/*     min-height: 40px; */
 }
 
 .custom-dropdown {
