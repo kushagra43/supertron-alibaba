@@ -148,9 +148,9 @@ body {
     0% {
         transform: translateX(0);
     }
-
+    
     100% {
-        transform: translateX(-10%)
+        transform: translateX(-85%)
     }
 }
 
@@ -161,8 +161,8 @@ body {
 }
 
 .marque-subcont {
-    display:flex;
-    animation: marquee 2s linear infinite;
+    display: flex;
+    animation: marquee 10s linear infinite;
 }
 
 .marque-grid-container {
