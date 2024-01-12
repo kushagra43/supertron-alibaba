@@ -58,7 +58,7 @@ body {
     max-width: 500px;
     width: 100%;
     border-radius: 20px;
-    min-height: 500px;
+    min-height: 490px;
 }
 
 .header-form {
@@ -262,7 +262,7 @@ body {
 /* Offerings */
 .offerings-heading {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .offerings-grid {
@@ -505,7 +505,7 @@ body {
 }
 
 .mb40 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .mb60 {
@@ -535,7 +535,12 @@ body {
 
 .p60v {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 35px;
+}
+
+.p20v{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .subheadingwhite {
@@ -783,7 +788,7 @@ body {
     }
 
     .robotImg {
-        margin-top: 40px;
+        margin-top:40px;
     }
 
     .navlogo {
@@ -821,16 +826,17 @@ body {
         text-align: center;
     }
 
-    .header-text-container {
-        margin-bottom: 40px;
-    }
-
     .blueheadingbigger {
         font-size: 50px;
     }
 
     .pointer {
-        display: none;
+        height: 20px;
+        width: 20px;
+    }
+
+    .pbb10{
+        padding-bottom: 0px;
     }
 
     .why-text-cont {
@@ -840,9 +846,9 @@ body {
     }
 
     .center-767 {
-        text-align: center;
+        text-align: left;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
 
     .offerings-img-cont {
@@ -854,7 +860,7 @@ body {
     }
 
     .whiteparah {
-        text-align: center;
+        text-align: left;
     }
 
     .whiteheadingnormal {
@@ -912,10 +918,22 @@ body {
 @media only screen and (max-width: 480px) {
     .header-container {
         padding: 20px;
+        margin-bottom: 10px;
     }
 
     .navlogo {
         height: 30px;
+    }
+
+    .slideHeadingContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slideImg{
+        height: 60px;
+        width: 60px;
     }
 
     .bluebutton {
@@ -971,5 +989,11 @@ body {
     .sliderText {
         font-size: 16x;
         line-height: 20px;
+        flex: 1;
     }
+    .slide2{
+        flex: 1;
+    }
+
+
 }
