@@ -162,7 +162,7 @@ body {
 
 .marque-subcont {
     display:flex;
-    animation: marquee 1s linear infinite;
+    animation: marquee 2s linear infinite;
 }
 
 .marque-grid-container {
