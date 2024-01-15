@@ -780,6 +780,18 @@ body {
         flex-direction: column;
     }
 
+    .bluebutton {
+        padding: 8px 24px;
+        font-size: 12px;
+
+    }
+    
+    .navbarButton{
+        padding: 8px 16px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
     .mr40 {
         margin-right: 0;
     }
@@ -796,11 +808,7 @@ body {
         height: 40px;
     }
 
-    .bluebutton {
-        padding: 8px 24px;
-        font-size: 12px;
-
-    }
+  
 
     .header-text-container {
         display: flex;
@@ -940,6 +948,12 @@ body {
     .bluebutton {
         padding: 16px 32px;
         font-size: 14px;
+        cursor: pointer;
+    }
+
+    .navbarButton{
+        padding: 8px 16px;
+        font-size: 24px;
         cursor: pointer;
     }
 
